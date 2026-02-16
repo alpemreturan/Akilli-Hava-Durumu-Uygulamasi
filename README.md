@@ -13,9 +13,20 @@
 
 Uygulama, hava durumunun durumuna göre (Güneşli, Yağmurlu, Karlı vb.) arka plan rengini ve temasını otomatik olarak değiştirerek kullanıcıya görsel bir deneyim sunar.
 
-| ☀️ Güneşli & Açık (İstanbul) | 🌧️ Yağmurlu & Soğuk (Amsterdam) | 🔥 Sıcak & Kapalı (Paraguay) |
-|:---:|:---:|:---:|
-| ![Sunny](screenshots/istanbul_sunny.png) | ![Rainy](screenshots/amsterdam_rainy.png) | ![Hot](screenshots/paraguay_hot.png) |
+| ☀️ Güneşli & Açık (İstanbul) | 🌧️ Yağmurlu & Soğuk (Amsterdam) | 🔥 Sıcak & Kapalı (Paraguay) | ❄️ Karlı & Soğuk (Oslo) |
+
+
+<img width="1793" height="1372" alt="istanbul_sunny" src="https://github.com/user-attachments/assets/4713ee60-7b69-41be-b788-ca47f5692395" />
+
+
+<img width="1792" height="1372" alt="amsterdam_rainy" src="https://github.com/user-attachments/assets/799bfbd9-20d1-4c41-9258-f89215e7b092" />
+
+
+<img width="1788" height="1368" alt="paraguay_hot" src="https://github.com/user-attachments/assets/d43bfc8b-48ef-4801-aa23-c23809241c13" />
+
+
+<img width="1797" height="1369" alt="Ekran görüntüsü 2026-02-16 152849" src="https://github.com/user-attachments/assets/17f8e427-e102-4a9e-878d-ee838859052b" />
+
 
 ---
 
@@ -46,13 +57,11 @@ pip install -r requirements.txt
 ```
 
 ### 3. API Anahtarını Yapılandırın (ÖNEMLİ 🔑)
-Güvenlik nedeniyle gerçek config.py dosyası paylaşılmamıştır. Uygulamanın çalışması için kendi anahtarınızı eklemelisiniz:
+Güvenlik nedeniyle config.py dosyasındaki API_KEY paylaşılmamıştır. Uygulamanın çalışması için kendi anahtarınızı eklemelisiniz:
 
-1. Klasördeki config_template.py dosyasının bir kopyasını oluşturun ve adını config.py yapın.
+1. OpenWeatherMap sitesinden ücretsiz bir API anahtarı alın.
 
-2. OpenWeatherMap sitesinden ücretsiz bir API anahtarı alın.
-
-3. Yeni oluşturduğunuz config.py dosyasını açın ve anahtarınızı API_KEY kısmına yapıştırın:
+2. Yeni oluşturduğunuz config.py dosyasını açın ve anahtarınızı API_KEY kısmına yapıştırın:
    
    API_KEY = "BURAYA_KENDI_API_KEYINIZI_YAZIN"
 
